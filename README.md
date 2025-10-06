@@ -42,6 +42,12 @@ git clone https://github.com/GabrielSheldes/Site_Goku.git
    
 ## 3. Instale as dependências:
    pip install -r requirements.txt
+
+## 4. Executando:
+    '''Dentro do bash'''
+    Code .
+## 5. Visualizando:
+    Use o 'Go Live' dentro do Vscode para visualização das funcionalidades 
 </p>
 
 # Como Usar:
