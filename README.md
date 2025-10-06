@@ -2,6 +2,10 @@
 ## Autores
 
 <b style="color:#00BFFF">Eduardo Barbosa 🫠</b>
+<b style="color:#00BFFF"> Marcos Martins 🤠</b>
+<b style="color:#00BFFF">Gabriel Sheldes 😎</b>
+<b style="color:#00BFFF">Thiago Monteiro 🥸</b>
+<b style="color:#00BFFF">Janiel Melo 🤡</b>
 
 
 
