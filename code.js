@@ -9,28 +9,23 @@ function cadastrar() {
         return;
     }
 
-    // 2. Verifica se o usuário já existe
+    // 2. Verificando se o usuário já existe
     if (localStorage.getItem(user)) {
         mensagem.textContent = `Erro: O usuário "${user}" já está cadastrado.`;
         return;
     }
 
     // 3. Armazena o usuário e a senha no LocalStorage
-    // A chave é o nome de usuário e o valor é a senha.
-    // Lembrete: NUNCA FAÇA ISSO EM PROJETOS REAIS, pois é inseguro!
+    // A chave é o nome de usuário e o valor é a senha. (Bem lógico por sinal)
     localStorage.setItem(user, pass);
 
     mensagem.textContent = `Sucesso! Usuário "${user}" cadastrado e pronto para login.`;
-    
-    // Opcional: Limpa os campos após o cadastro
+
+    //Só para limpar os campos depois do cadastro, deve ficar legal (Eu acho)
     document.getElementById('reg-user').value = '';
     document.getElementById('reg-pass').value = '';
 }
 
-
-// ===============================================
-// FUNÇÃO DE LOGIN
-// ===============================================
 function logar() {
     // 1. Pega os valores dos campos de login
     const user = document.getElementById('login-user').value;
@@ -55,8 +50,7 @@ function logar() {
     if (pass === senhaSalva) {
         mensagem.textContent = `Login realizado com sucesso! Bem-vindo(a), ${user}!`;
         
-        // **AÇÃO PÓS-LOGIN**
-        // Aqui, você pode redirecionar o usuário para a página principal.
+        // Aqui se tudo der certo mandamos o usuário para pagina principal
         localStorage.setItem('usuarioLogado', user);
        
         window.location.href = "index.html";  
@@ -93,19 +87,16 @@ function verificarStatusLogin() {
         }
         
     } else {
-        // Se não logado: Garante que os links de login apareçam
+        // Uma função para quando o usuario não estiver logado o link aparecer
         if (linkLogin) linkLogin.style.display = 'block';
         if (linkLogout) linkLogout.style.display = 'none';
         if (saudacao) saudacao.style.display = 'none';
 
-        // **Atenção:** Se esta página for para ser protegida, adicione:
-        // window.location.replace("login.html");
+
     }
 }
 
-// =================================================================
-// FUNÇÃO LOGOUT (Para o link 'Sair')
-// =================================================================
+
 function logout() {
     localStorage.removeItem('usuarioLogado');
     // Redireciona para o login após sair
