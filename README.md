@@ -43,8 +43,7 @@ templates prontos.
 ## 3. Instale as dependências:
      pip install -r requirements.txt
 
-## 4. Executando:
-    '''Dentro do bash'''
+## 4. Executando(no git bash) :
     Code .
 ## 5. Visualizando:
     Use o 'Go Live' dentro do Vscode para visualização das funcionalidades 
