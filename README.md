@@ -1,7 +1,7 @@
 # Projeto de Site de Dragon Ball
 ## Autores
 
-<b style="color:#00BFF">Eduardo Barbosa 🫠</b>
+<b style="color:#00BFFF">Eduardo Barbosa 🫠</b>
 
 
 
