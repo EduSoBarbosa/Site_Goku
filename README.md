@@ -1,5 +1,5 @@
 # Projeto de Site de Dragon Ball
-<h2 align='center' style='color:00BFFF;'> Eduardo de Sousa Barbosa 🥲 | Gabriel Sheldes 😎 | Janiel Melo 🤡 | Marcos Martins 🤠 | Thiago Monteiro 🥸</h2>
+<h2 align='center' style='color:#00BFFF;'> Eduardo de Sousa Barbosa 🥲 | Gabriel Sheldes 😎 | Janiel Melo 🤡 | Marcos Martins 🤠 | Thiago Monteiro 🥸</h2>
 
 
 
