@@ -37,10 +37,7 @@ git clone https://github.com/GabrielSheldes/Site_Goku.git
 </p>
 
 # Como Usar:
-<p align='justify'>
-  
+<p align='justify'>  
 Este projeto é um protótipo da parte visual (e um pouco da interativa) de um site de venda virtual suas funções atuais incluem adicionar produtos  no carrinho, Visualizar produtos por meio de um 'vitrine' e um carrossel e interagir com o sistema de login. O sistema visto não deve de forma alguma  ser implantado ou usado para fins profissionais uma vez que sua segurança é extremamente baixa ja que o mesmo armazena as informações de login em um local storage baseado em chave (Usuário) e valor (senha). Seu uso envolve somente a visualização grafica nenhuma ação esta refinada de fato para uso em larga ou micro escala uma vez que a aplicação não leva em conta escalabilidade nem produtos reais (não contem nenhum api de pagamento).
-
-  
 </p>
 
