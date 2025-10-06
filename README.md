@@ -35,13 +35,13 @@ templates prontos.
 <p align='justify'>
   
 ## 1. Clone este repositório(com Git Bash):
-git clone https://github.com/GabrielSheldes/Site_Goku.git
+    git clone https://github.com/GabrielSheldes/Site_Goku.git
   
 ## 2. Acesse a pasta que sera usada para abrir:
-   cd nomedapasta
+     cd nomedapasta
    
 ## 3. Instale as dependências:
-   pip install -r requirements.txt
+     pip install -r requirements.txt
 
 ## 4. Executando:
     '''Dentro do bash'''
