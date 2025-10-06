@@ -1,4 +1,4 @@
-# Projeto de Site de Dragon Ball
+# Projeto de Site de vendas com tema: Dragon Ball
 ## Autores
 
 <b style="color:#00BFFF">Eduardo Barbosa 🫠|</b>
@@ -27,6 +27,7 @@ templates prontos.
 - Css3
 - JavaScript
 - Bootstrap
+- Modo de Desenvolvedor Google(Inspecionar)
 
 # Rodando o Projeto Localmente
 ### Passo a Passo considerando que um Ambiente de Desenvolvimento ja esta instalado
@@ -48,5 +49,11 @@ git clone https://github.com/GabrielSheldes/Site_Goku.git
 Este projeto é um protótipo da parte visual (e um pouco da interativa) de um site de venda virtual suas funções atuais incluem adicionar produtos  no carrinho, Visualizar produtos por meio de um 'vitrine' e um carrossel e interagir com o sistema de login. O sistema visto não deve de forma alguma  ser implantado ou usado para fins profissionais uma vez que sua segurança é extremamente baixa ja que o mesmo armazena as informações de login em um local storage baseado em chave (Usuário) e valor (senha). Seu uso envolve somente a visualização grafica nenhuma ação esta refinada de fato para uso em larga ou micro escala uma vez que a aplicação não leva em conta escalabilidade nem produtos reais (não contem nenhum api de pagamento).
 </p>
 
-# 
+# Referencias 
+1. Bootstrap https://getbootstrap.com/
+2. Html documentation https://developer.mozilla.org/en-US/docs/Web/HTML
+3. JavaScript documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript
+4. CSS documentation https://developer.mozilla.org/pt-BR/docs/Web/CSS
+5. Amazon (Fontes de Imagens, Na aba de pesquisa colocar 'Action Figure Dragon Ball') https://www.amazon.com.br/
+6. StackOverflow (Resolução de erros pontuais) https://stackoverflow.com/questions
 
